@@ -1,0 +1,48 @@
+{
+  "id": "pf2e-kineticist-impulses",
+  "title": "Pf2e Kineticist Impulses",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Adds kineticist impulses as spells that can be cast.",
+  "authors": [
+    {
+      "name": "Ben Edwards"
+    }
+  ],
+  "packs": [
+    {
+      "name": "kineticist-impulses",
+      "label": "Kineticist Impulses",
+      "path": "packs/kineticist-impulses",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "impulse-effects",
+      "label": "Impulse Effects",
+      "path": "packs/impulse-effects",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ]
+}
