@@ -44,5 +44,7 @@
       },
       "system": "pf2e"
     }
-  ]
+  ],
+  "manifest": "https://github.com/elexisvenator/pf2e-kineticist-impulses/blob/main/module.json",
+  "download": "https://github.com/elexisvenator/pf2e-kineticist-impulses/blob/main/module.zip"
 }
